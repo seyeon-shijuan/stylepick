@@ -1,0 +1,464 @@
+.order_table{
+	width:100%;
+	border-collapse: collapse;
+}
+.order{
+	border: 3px solid #bcbcbc;
+	text-align: center;
+}
+.order2{
+	border-top:2px solid black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	height: 30px;
+}
+.blacka{
+	color:black !important;
+}
+.userfont{
+	color: red;
+	font-size: 14px;
+}
+.userul{
+  	list-style-type: none;
+  	text-align: left;
+  	overflow: hidden;
+  	margin: 0;padding: 0;
+  }
+.userli{
+  	position:relative;
+  	display:inline;
+  	text-align:center;
+  	font-size:15px;
+  	float: left;
+  	width: 50%;
+  }
+.usera{
+  	text-decoration: none;
+  	color: #424242;
+  }
+.center{
+	height:100%;
+	margin-left: auto;
+	margin-right:auto;
+	max-width: 620px;
+}
+.default_center{
+	width:60%;
+	margin : 0 20%;
+}
+.input_box{
+	margin-top:10px;
+	margin-bottom: 5px;
+	padding: 8px 35px 4px 11px;
+	border: solid 1px #dadada;
+	background: #fff;
+	height: 29px;	
+	box-sizing: unset;
+	border-radius: 6px;
+}
+.input_input{
+	 width:100%;
+	 height:16px; 
+	 border: none;
+	 
+}
+.input_err{
+	margin-bottom: -2px;
+	margin-top: -6px;
+}
+.input_submit{
+	margin-bottom: 12px;
+	height: 54px;
+	line-height: 52px;
+	font-size: 18px;
+	font-weight: 700;
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	border: 0px solid #35C5F0;
+	background-color: #35C5F0;
+	color: #ffffff;
+}
+.login_background{
+	height:100%;
+	min-height:570px;
+	position: absolute;
+	top: 0;left: 0;right: 0;bottom:0;
+}
+.social_login_box{
+	background-color: white;
+	height: 200px;
+	margin-bottom: 15px;
+}
+.social_seq_button{
+	display:block;
+	line-height:45px;
+	width: 90%;
+	height:45px;
+	text-align:center;
+	border: 1px solid #000000;
+}
+.entry_text{
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 40px;
+	padding-top : 10px;
+}
+.entry_input{
+	margin-left:60px;
+	margin-right:40px;
+}
+.img_box{
+	width: 150px;
+	display:inline;
+	height: 150px;
+	float: left;
+	text-align: center;
+	margin-left: 60px;
+	margin-top:10px;
+	background-color: #dadada;
+}
+.img_del{
+	display:block;
+	line-height:25px;
+	width: 26%;
+	height:26px;
+	text-align:center;
+	margin-top:-149px;
+	margin-left:103px;
+	background-color: #35C5F0;
+	color: white;
+	font-weight: bold;
+}
+.table_input{
+	border: 2px solid #bcbcbc;
+	border-radius: 6px;
+	height:40px;
+	width:300px;
+	padding: 0 15px;
+}
+.update_text{
+	font-size: 18px;
+	font-weight: bold;
+	width:150px;
+	height:43px;
+	line-height: 43px;
+	float:left;
+	margin-top: 10px;
+}
+.update_input{
+	width: 450px;
+	float: left;
+}
+.update_tuple{
+	margin-top:21px;
+	width: 100%;
+	height: 50px;
+}
+.welcome_ul{
+	list-style-type: none;
+  	text-align: center;
+  	overflow: hidden;
+  	margin: 0;padding: 0;
+}
+.welcome_li{
+	position:relative;
+  	display:inline;
+  	text-align:center;
+  	font-size:15px;
+  	float: left;
+  	width: 50%;
+}
+.welcome_a{
+	text-decoration: none;
+  	color: white;
+  	display:block;
+  	line-height:45px;
+  	width: 80%;
+  	margin-left:10%;
+  	height:64px;
+  	text-align:center;
+  	background-color: #35C5F0;
+  	font-size: 33px;
+  	font-weight: bold;
+  	line-height: 65px;
+}
+.sellEntry_header{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    font-size: 40px;
+}
+.a_blockbutton{
+	display: block;
+	border: 0px;
+	font-size:16px;
+	width: 71px;
+	height: 30px;
+	font-weight: bold;
+	text-align: center;
+	color:black !important;
+}
+.user-profile {
+	float : left;
+    font-weight: bold;
+    font-size: 30px;
+    width: 75%;
+    height: 45px;
+}
+.user-info {
+	height:180px;
+	background-color:#FFF;
+	margin-bottom : 20px;
+	font-size : 20px;
+	border: 2px solid #000;
+}
+.user-info table {
+	text-align : center;
+}
+
+.user-info table tr td {
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.user-imgdiv{
+display: inline;
+float: left;
+height: 180px;
+width: 180px;
+margin: 0px;
+text-align: center;
+padding-top: 26px;
+}
+.blockbutton_selected{
+border-bottom: 3px solid #35C5F0;
+color: #35C5F0 !important;
+}
+.blockbutton_selected2{
+border-bottom: 3px solid #FE6500;
+color: #FE6500 !important;
+}
+.dummycolor{
+border:0px;
+height: 90px;
+background-color: #35C5F0;
+width:100%;
+}
+.user-action{
+	width: 75%;
+	float:left;
+	display:inline;
+	margin-top:10px;
+}
+.order_downview{
+	height: auto;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.order_leftdiv{
+	width: 10%;
+	border-right: 1px solid black;
+	float: left;
+}
+.order_main{
+	width:90%;
+	float:left;
+	padding-left: 20px;
+	height: auto;
+}
+.a_leftdivbtn{
+	display: block;
+	border: 0px;
+	font-size:18px;
+	width:100%;
+	height: 38px;
+	font-weight: bold;
+	text-align: center;
+	color:black !important;
+}
+.leftdivbtn_selected{
+color: #35C5F0 !important;
+}
+.leftdivbtn_selected2{
+color: #FE6500 !important;
+}
+.order_header{
+	font-size: 24px;
+}
+.order_18px{
+	font-size:18px;
+	font-weight: bold;
+}
+.order_buy{
+	width: 100%;
+	height: auto; 
+	background-color: #E0E0E0;
+	padding: 20px
+}
+.order_buyitem{
+	width: 100%;
+	height: 170px;
+	background-color: white;
+	padding: 10px;
+	border-bottom: 1px solid gray;
+	border-top : 1px solid gray;
+}
+.order_buyitem_left{
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+.order_buyitem_center{
+	height: 150px;
+	width: 400px;
+	float: left;
+	padding-left: 10px;
+}
+.order_buyitem_center_text{
+	width: 100%;
+	text-align: left;
+	padding-left:20px;
+	margin-bottom: 3px;
+}
+.order_buyitem_right{
+	height: 150px;
+	width: 160px;
+	float: left;
+	padding-left: 10px;
+	border-left: 2px solid gray;
+	margin-left: 10px;
+}
+.order_buyitem_right_text{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+.order_buyitem_buttondiv{
+	margin-top: 6px;
+	width: 100%;
+	text-align: center;
+}
+.order_buyitem_button{
+	width:80%;
+	border: 2px solid #35C5F0;
+	background-color:white;
+	color:#35C5F0;
+	font-weight:bold;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.order_buyitem_button2{
+	width:80%;
+	border: 2px solid white;
+	background-color:#35C5F0;
+	color:white;
+	font-weight:bold;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.order_buyitem_button3{
+	width:80%;
+	border: 2px solid white;
+	background-color:#FE6500;
+	color:white;
+	font-weight:bold;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.title_area {
+	background-color: #2577fd;
+    color: #fff;
+    height: 55px;
+    line-height: 55px;
+    font-size: large;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+#imglabel { 
+	display: inline-block; 
+	padding: .5em .75em; 
+	color: #fff; 
+	font-size: inherit; 
+	line-height: normal; 
+	vertical-align: middle; 
+	background-color: #35c5f0; 
+	cursor: pointer; 
+	border: 1px solid #ebebeb; 
+	border-bottom-color: #e2e2e2;
+	border-radius: .25em; 
+	margin-top:2px;
+}
+	
+#input-file {
+	 /* 파일 필드 숨기기 */ 
+	position: absolute; 
+	width: 1px; 
+	height: 1px; 
+	padding: 0; 
+	margin: -1px; 
+	overflow: hidden; 
+	clip:rect(0,0,0,0); 
+	border: 0; 
+}
+		
+#input-file { 
+	position: absolute; 
+	width: 1px; height: 1px; 
+	padding: 0; 
+	margin: -1px; 
+	overflow: hidden; 
+	clip:rect(0,0,0,0); border: 0; 
+} 
+	
+#imglabel { 
+	display: inline-block; 
+	padding: .5em .75em; 
+	color: #fff; 
+	font-size: inherit; 
+	line-height: normal; 
+	vertical-align: middle; 
+	background-color: #35c5f0; 
+	cursor: pointer; 
+	border: 1px solid #ebebeb; 
+	border-bottom-color: #e2e2e2; 
+	border-radius: .25em;
+	margin-top:2px;
+} 
+	
+/* imaged preview */
+	
+.img .upload-display { 
+	/* 이미지가 표시될 지역 */ 
+	margin-bottom: 5px; 
+} 
+	
+@media(min-width: 768px) { 
+	.img .upload-display { 
+		display: inline-block; margin-right: 5px; margin-bottom: 0; 
+	}
+} 
+	
+.img .upload-thumb-wrap {
+	 /* 추가될 이미지를 감싸는 요소 */ 
+	 display: inline-block; 
+	 width: 150px; 
+	 height: 150px;
+	 padding: 2px; 
+	 vertical-align: middle; 
+	 border: 1px solid #ddd; 
+	 border-radius: 5px; 
+	 background-color: #fff; 
+} 
+	 
+.img .upload-display img {
+	 /* 추가될 이미지 */ 
+	 display: block; 
+	 max-width: 100%; 
+	 width: 100%; 
+	 height: 100%; 
+}

@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+a {
+	color: black;
+}
+
+body, h1, h2, h3, h4, h5 {
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main-mapper {
+	width : 60%;
+	margin : 0 20%;
+	padding: 2% 0;
+	height: 100%
+}
+
+
+.header-info-right ul li a {
+	padding-left : 1px;
+	padding-right : 36px;
+}
+
+.best-collection-area {
+    background-color: whitesmoke;	
+}
+
+.style-imgs {
+	width: fit-content;
+	height : fit-content;
+}
+
+.fullview-inner-wrapper {
+	border-radius: 6px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-right: 400px;
+    width:1000px;
+	min-height:700px;
+    background-color: white;
+    border-color: #e8ebed;
+    border-style: solid;
+    border-width: 1px;
+    overflow : hidden;
+}
+
+.pictures-wrapper {
+	width: 600px;
+    border-bottom-color: #E8EBED;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    float: left;
+    border-right: 1px solid #E8EBED;
+    min-height : 698px;
+}
+
+.pictures {
+	border-radius: 6px 0 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.side-position {
+    margin-right: -400px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    width: 400px;
+    float: right;
+    height:100%;
+    border-left: 1px solid #E8EBED;
+}
+
+.side {
+	border: 1px solid #babbbb;
+    border-radius: 6px;
+    margin-bottom : 20px;
+    padding : 12px;
+}
+
+.style-action {
+	margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #babbbb;
+}
+
+.style-profile {
+	margin-bottom : 12px;
+}
+
+.category {
+	/*background-color: #e5ebf7;
+	width:30%;
+	text-align:center;*/
+}
+
+.user-info {
+	height:250px;
+	background-color:#e5ebf7;
+	margin-bottom : 20px;
+	padding: 50px 60px;
+	font-size : 20px;
+}
+
+.user-info table {
+	margin-left : 110px;
+	text-align : center;
+}
+
+.user-info table tr td {
+	padding-right: 20px;
+}
+
+.user-cards {
+	border : 1px solid #babbbb;
+	border-radius : 6px;
+	padding : 20px;
+	margin : 0 20px;
+}
+
+.user-cards table tr td {
+	padding : 0 7px;
+}
+
+.user-cards img {
+	border-radius : 6px;
+}
+
+.reply_list {
+	width:100%
+}
+
+.reply_list tr {
+	margin-bottom : 10px;
+}
+
+.style-info table {
+	width:100%;
+}
+
+.style-info table tr td {
+
+}
+
+.categoryimg {
+	width : 20%;
+	background-color: #f7f7f7;
+    border-radius: 6px;
+    border-bottom : 10px solid #ffffff;
+}
+
+.following {
+	background-color: #ffffffd4;
+    color: #2577fd;
+    border: 2px solid #2577fd;
+    border-radius: 6px;
+}
+
+
+#thumb {
+	border-radius: 6px 6px 0 0;
+}
+
+.style-info-first {
+	margin : 6px 0;
+}
+
+.followbtn {
+	 background: url( "../img/adduser.jpg" ) no-repeat;
+	 width:54px;
+	 height:33px;
+	 border: 2px solid #00b1ff;
+	 border-radius: 6px;
+     margin-left: 8px;
+}
+
+.searchform {
+	
+}
+
+.title_area {
+	background-color: #2577fd;
+    color: #fff;
+    height: 55px;
+    line-height: 55px;
+    font-size: large;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.search_area {
+	margin: 20px 24px;
+    float: left;
+}
+
+.table_area {
+	
+}
+
+.table_area table {
+	margin : 3% 10%;
+	width : 80%
+}
+
+.page_area {
+	text-align: center;
+}
+
+.selectbtn {
+	padding: 3px 12px;
+    color: #fff;
+    background-color: #ff003c;
+    border: none;
+    border-radius: 6px;
+}
+
+.selectbtn2 {
+	display: inline-block;
+    padding: .5em .75em;
+    color: #999;
+    font-size: inherit;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    border-bottom-color: #e2e2e2;
+    border-radius: .25em;
+}
+
+.likebtn {
+	border: none;
+    background: #fff;
+    cursor: pointer;
+}
+
+.style-comment {
+	margin : 20px 0;
+}

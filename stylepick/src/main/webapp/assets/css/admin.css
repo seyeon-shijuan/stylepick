@@ -1,0 +1,119 @@
+
+.outer_frame {
+	display: flex;
+}
+.double_frame{
+	float:left;
+	flex: 1;
+	margin: 2%;
+	padding: 4px;
+}
+.quarter_frame{
+	float:left;
+	flex: 1;
+	margin: 0 2%;
+	border: 1px solid white;
+	color: white;
+	padding: 4px;
+	font-size: x-large;
+	font-weight: bold;
+	text-align: right;
+}
+.red {
+	background : #ed6150;
+}
+.green {
+	background : #8ec63d;
+}
+.yellow {
+	background : #fec246;
+}
+.skyblue {
+	background : #2baae1;
+}
+.smaller_size {
+	font-size: x-small;
+}
+.todolist_frame {
+	margin: 2%;
+	padding: 4px;
+	background : #FFEAEA;
+}
+.todolist {
+
+}
+.due {
+	width: 20%;
+}
+.content {
+	width: 40%;
+}
+.insert {
+	width: 60%;
+}
+.finished {
+	width: 20%;
+}
+.updelete {
+	width: 20%;
+}
+.input_round {
+	display: inline;
+	border : none;
+    border-radius: 100%;
+    background  : red;
+    width : 30px;
+    height : 30px;
+    color : white;
+    text-align: center;
+    font-size: medium;
+    margin-right: 5%;
+}
+.store_frame {
+	display: inline;
+	box-shadow: 0px 0px 8px lightgray;
+	width: auto;
+	height: auto;
+	background : #FAFAFA;
+	text-align : center;
+	padding : 1%;
+}
+
+.admin_table {
+	border: 1px solid gray;
+	border-collapse: collapse;
+	text-align: center;
+	margin: 0 10px 0 10px;
+	padding: 0 10px 0 10px;
+}
+.admin_table_th {
+	border: 1px solid gray;
+	border-collapse: collapse;
+	text-align: center;
+	margin: 0 10px 0 10px;
+	padding: 0 10px 0 10px;
+	background-color: #D4F4FA;
+}
+
+
+#mint_square{
+      width: 8px;
+      height: 25px;
+      background: #2ECCC5;
+      float: left;
+      margin-right: 15px;
+}
+
+
+.user_list_table {
+	border: 1px solid gray;
+	border-collapse: collapse;
+	text-align: center;
+	margin: 0 10px 0 10px;
+	padding: 0 10px 0 10px;
+	font-size: small;
+}
+
+.user_list_th {
+	background-color: #FAFAFA;
+}

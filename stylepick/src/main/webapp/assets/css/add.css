@@ -1,0 +1,55 @@
+.main-mapper {
+	width: 46%;
+    margin: 0 30%;
+    padding: 2% 1% 2% 2%;
+    background-color: #fff;
+}
+
+.best-collection-area {
+    background-color: whitesmoke;
+    padding: 2% 0;	
+}
+
+.ii{
+	display:inline-block; 
+	margin-right:40px;
+}
+
+.ii2{
+	display:inline-block; 
+}
+
+.oi{
+	display:inline-block; 
+	margin-right:10px;
+}
+
+.oi2{
+	display:inline-block; 
+}
+
+input {
+  width:380px;
+  font-size:20px;
+
+}
+
+.genric-btn.success{
+	margin-left: 230px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.genric-btn.success2{
+	margin-left: 230px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.subject-name{
+	margin-left:235px;
+}
+
+.subject-name2{
+	margin-left:155px;
+}

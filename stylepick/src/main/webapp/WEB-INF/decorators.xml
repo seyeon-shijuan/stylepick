@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<decorators defaultdir="/layout">
+	<decorator name="main" page="main.jsp">
+		<pattern>*.shop</pattern>
+		<pattern>*/CarrServlet</pattern>
+		<pattern>*/StylepickServlet</pattern>
+	</decorator>
+	<excludes>
+		<pattern>/user/login*</pattern>
+		<pattern>/user/userEntry*</pattern>
+		<pattern>/user/sellerEntry*</pattern>
+		<pattern>/item/line*</pattern>
+		<pattern>/item/qna*</pattern>
+		<pattern>/item/rep*</pattern>
+		<pattern>/item/change*</pattern>
+		<pattern>/item/remove*</pattern>
+		<pattern>/sns/searchForm*</pattern>
+		<pattern>/sns/search.*</pattern>
+
+		<pattern>/user/sellerInfo*</pattern>
+	</excludes>
+</decorators>
